@@ -6,10 +6,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-experience.component.scss']
 })
 export class WorkExperienceComponent implements OnInit {
-  workExperience : Array<any>=[];
+
   constructor() { }
 
   ngOnInit(): void {
+
 
 
 
@@ -39,5 +40,7 @@ export class WorkExperienceComponent implements OnInit {
   this.workExperience.push(work1);
   this.workExperience.push(work2);
 
+
   }
+
 }
