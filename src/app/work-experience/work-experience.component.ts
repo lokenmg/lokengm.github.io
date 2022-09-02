@@ -32,7 +32,7 @@ export class WorkExperienceComponent implements OnInit {
     logros: [
       {descripcion: "vendedor del año"},
       {descripcion: "mas ventas en un día"},
-      {descripcion: "mas ventas de abarrotes"}
+      {descripcion: "mas ventas de abarrotes..."}
     ]
   };
 
