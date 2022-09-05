@@ -7,7 +7,6 @@ import { AppModule } from '../app.module';
   styleUrls: ['./work-experience.component.scss']
 })
 export class WorkExperienceComponent implements OnInit {
-  workExperience: Array<any> =[];
   constructor() { }
 workExperience : Array<any>=[];
   ngOnInit(): void {
