@@ -3,12 +3,13 @@ body{
   color: darken($color: #000000, $amount: 0);
   background-color: darkgray;
   size: 15px;
-  border-radius: 15px;
+  border-radius: 15px ;
+  border-color: #000000;
 }
 
 p{
   color: black;
-  size: 15px;
+  size: 16px;
   border: 2px blanchedalmond;
 
 }
