@@ -16,7 +16,7 @@ describe('EducationComponent', () => {
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
-
+//un comentario
   it('should create', () => {
     expect(component).toBeTruthy();
   });

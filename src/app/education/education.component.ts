@@ -17,7 +17,7 @@ export class EducationComponent implements OnInit {
       fecha   : "2008 - 2014",
       escuela : "Lic. Adolfo Mateos",
       lugar   : "Mariano Escovedo Ver.",
-      promedio: "9.0"
+      promedio: "9.1"
 
     }
 
