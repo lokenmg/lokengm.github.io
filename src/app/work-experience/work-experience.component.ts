@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AppModule } from '../app.module';
 
 @Component({
   selector: 'app-work-experience',
@@ -6,9 +7,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./work-experience.component.scss']
 })
 export class WorkExperienceComponent implements OnInit {
-
   constructor() { }
-
+workExperience : Array<any>=[];
   ngOnInit(): void {
 
 
