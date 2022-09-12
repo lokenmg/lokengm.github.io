@@ -1,17 +1,45 @@
-
-body{
-  color: darken($color: #000000, $amount: 0);
-  background-color: darkgray;
-  size: 15px;
-  border-radius: 15px ;
-  border-color: #000000;
+.nombre{
+  display: inline-block;
+  width: 33%;
+  text-align: start;
 }
+
+.imagen{
+
+  flex-direction: row;
+  display: inline-block;
+  text-align: center;
+  width: 33%;
+}
+img{
+  border: 5px inset;
+}
+
+#nombre{
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 300px;
+}
+
+.datos{
+  display: inline-block;
+  flex-direction: row;
+  justify-content: flex-end;
+  width: 33%;
+  text-align: right;
+}
+
+
 
 p{
   color: black;
   size: 15px;
   border: 2px blanchedalmond;
 
+
+}
+body{
+background-color: 48,102,190;
 }
 
 

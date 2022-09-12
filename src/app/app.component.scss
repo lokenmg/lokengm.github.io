@@ -1,19 +1,27 @@
+header{
+  margin: 10px;
+  background-color: rgb(48,102,190);
+  border-radius: 15px;
+  border: 5px ridge;
+}
+
 
 table{
   border-radius: 15px;
   border-color: black;
   border-style: solid;
+}
+
+td{
+  background-color: rgb(180,197,228);
+  width: 25%;
+  border-radius: 15px;
+}
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(60,55,68);
   margin: 0 auto;
 
-}
-tr{
-  border-radius: 15px;
-  border-color: 030774;
-  border-style: solid;
-
-}
-td{
-  border-radius: 15px;
-  border-color: 030774;
 }
 
