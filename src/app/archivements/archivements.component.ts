@@ -35,6 +35,20 @@ export class ArchivementsComponent implements OnInit {
 
     let logros4={
       tipo: "Certificado",
+      nombre: "Intro to pythom kaggle",
+      descripcion: "Aprende los conceptos básicos de python en este curso práctico e interactivo con Kaggle.",
+      certification: "https://github.com/lokenmg/python/blob/master/curso1/rodrigo%20mencias%20-%20Python.png"
+    }
+
+    let logros5={
+      tipo: "Certificado",
+      nombre: "Intro to pandas kaggle",
+      descripcion: "Aprende los conceptos básicos de pandas en este curso práctico e interactivo con Kaggle.",
+      certification: "https://github.com/lokenmg/python/blob/master/pandas/rodrigo%20mencias%20-%20Pandas.png"
+    }
+
+    let logros6={
+      tipo: "Certificado",
       nombre: "Intro to machine learning kaggle",
       descripcion: "Aprende los conceptos básicos de Machine Learning en este curso práctico e interactivo con Kaggle.",
       certification: "https://github.com/lokenmg/python/blob/master/rodrigo%20mencias%20-%20Intro%20to%20Machine%20Learning.png"
@@ -44,6 +58,8 @@ export class ArchivementsComponent implements OnInit {
     this.archivement.push(logros2);
     this.archivement.push(logros3);
     this.archivement.push(logros4);
+    this.archivement.push(logros5);
+    this.archivement.push(logros6);
   }
 
 }
