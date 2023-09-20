@@ -54,12 +54,20 @@ export class ArchivementsComponent implements OnInit {
       certification: "https://github.com/lokenmg/python/blob/master/rodrigo%20mencias%20-%20Intro%20to%20Machine%20Learning.png"
     }
 
+    let logros7={
+      tipo: "Certificado",
+      nombre: "intermediate Machine learning kaggle",
+      descripcion: "Aprende los conceptos básicos de SQL en este curso práctico e interactivo con Kaggle.",
+      certification: "https://github.com/lokenmg/python/blob/master/IntermediateML/rodrigo%20mencias%20-%20Intermediate%20Machine%20Learning.png"
+    }
+
     this.archivement.push(logros1);
     this.archivement.push(logros2);
     this.archivement.push(logros3);
     this.archivement.push(logros4);
     this.archivement.push(logros5);
     this.archivement.push(logros6);
+    this.archivement.push(logros7);
   }
 
 }
